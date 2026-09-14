@@ -1,0 +1,15 @@
+:root {
+  --fs-paper: #f7f6f1;
+  --fs-surface: #fffefa;
+  --fs-ink: #14171a;
+  --fs-muted: #5c6a6f;
+  --fs-line: #dde2dc;
+  --fs-brand: #1aa57a;
+  --fs-space-1: 4px;
+  --fs-space-2: 8px;
+  --fs-space-3: 12px;
+  --fs-space-4: 16px;
+  --fs-space-5: 24px;
+  --fs-radius-sm: 10px;
+  --fs-radius-md: 18px;
+}
