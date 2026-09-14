@@ -1,4 +1,6 @@
-# FStructure Design Workbench
+# Fsteucture Diseño Estructural
+
+## FStructure Design Workbench
 
 Prototipo experimental para hacer legible el flujo de diseño estructural: hipótesis, acciones, diagramas, acero, detalles y evidencia normativa en una sola superficie. La dirección visual sigue el brandbook web de FusionStructure y su principio rector: “Make complexity legible.”
 
@@ -49,4 +51,3 @@ La carpeta `docs/references/normative/` contiene copias públicas de referencia 
 3. Versionar `DesignSnapshot` y `DesignCheck` como contrato entre UI, motor y memoria de cálculo.
 4. Incorporar combinaciones de carga, axial y marcos 2D antes de abrir la coordinación 3D.
 5. Agregar exportación de memoria con procedencia, hipótesis, ecuaciones y revisión profesional.
-
