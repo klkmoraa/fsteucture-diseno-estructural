@@ -1,15 +1,67 @@
-:root {
+:root,
+[data-theme='night'] {
+  color-scheme: dark;
+  --fs-paper: #0e1113;
+  --fs-surface: #1b1f22;
+  --fs-surface-raised: #202529;
+  --fs-surface-sunken: #14171a;
+  --fs-ink: #f2f4f3;
+  --fs-ink-strong: #f8faf9;
+  --fs-muted: #b4bdc0;
+  --fs-faint: #8b9599;
+  --fs-line: #333a3e;
+  --fs-line-strong: #465055;
+  --fs-brand: #1aa57a;
+  --fs-signal-axial: #63c5ff;
+  --fs-signal-moment: #ff8e80;
+  --fs-signal-shear: #55c990;
+  --fs-signal-deflection: #9b87ff;
+  --fs-signal-steel: #ef7ab9;
+  --fs-signal-attention: #f3c553;
+  --fs-shadow-raised: 5px 6px 12px rgb(0 0 0 / 42%), inset 1px 1px 1px rgb(255 255 255 / 8%);
+  --fs-shadow-floating: 8px 10px 22px rgb(0 0 0 / 48%), inset 1px 1px 1px rgb(255 255 255 / 10%);
+  --fs-shadow-interior: inset 2px 2px 4px rgb(0 0 0 / 48%), inset -1px -1px 1px rgb(255 255 255 / 5%);
+}
+
+[data-theme='day'] {
+  color-scheme: light;
   --fs-paper: #f7f6f1;
   --fs-surface: #fffefa;
+  --fs-surface-raised: #fffefa;
+  --fs-surface-sunken: #edefe9;
   --fs-ink: #14171a;
+  --fs-ink-strong: #0f1113;
   --fs-muted: #5c6a6f;
+  --fs-faint: #7e8a84;
   --fs-line: #dde2dc;
+  --fs-line-strong: #a7b1a9;
   --fs-brand: #1aa57a;
+  --fs-signal-axial: #0f95d1;
+  --fs-signal-moment: #ed4b46;
+  --fs-signal-shear: #468c09;
+  --fs-signal-deflection: #7657d5;
+  --fs-signal-steel: #d85ac9;
+  --fs-signal-attention: #d9720a;
+  --fs-shadow-raised: 5px 6px 12px rgb(20 23 26 / 14%), inset 1px 1px 1px rgb(255 255 255 / 80%);
+  --fs-shadow-floating: 8px 10px 22px rgb(20 23 26 / 16%), inset 1px 1px 1px rgb(255 255 255 / 90%);
+  --fs-shadow-interior: inset 2px 2px 4px rgb(20 23 26 / 14%), inset -1px -1px 1px rgb(255 255 255 / 80%);
+}
+
+:root {
   --fs-space-1: 4px;
   --fs-space-2: 8px;
   --fs-space-3: 12px;
   --fs-space-4: 16px;
   --fs-space-5: 24px;
+  --fs-space-6: 32px;
+  --fs-space-7: 48px;
+  --fs-space-8: 64px;
   --fs-radius-sm: 10px;
   --fs-radius-md: 18px;
+  --fs-radius-lg: 28px;
+  --fs-radius-pill: 999px;
+  --fs-font-display: 'Space Grotesk', sans-serif;
+  --fs-font-ui: Inter, sans-serif;
+  --fs-font-data: 'IBM Plex Mono', monospace;
+  --fs-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }

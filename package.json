@@ -10,7 +10,7 @@
     "typecheck": "tsc -b --noEmit",
     "lint": "oxlint",
     "test": "vitest run --maxWorkers=1 --pool=threads --no-file-parallelism",
-    "check": "npm run lint && npm run typecheck && npm run test && npm run build"
+    "check": "pnpm run lint && pnpm run typecheck && pnpm run test && pnpm run build"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

@@ -2,7 +2,7 @@
 
 ## Estado
 
-Propuesta aprobada como dirección de trabajo para el prototipo inicial. El prototipo es exploratorio: no certifica cálculos, no sustituye la revisión de una persona responsable y no debe usarse para autorizar obra.
+Propuesta de trabajo implementada como prototipo inicial. El prototipo es exploratorio: no certifica cálculos, no sustituye la revisión de una persona responsable y no debe usarse para autorizar obra.
 
 ## Idea central
 
